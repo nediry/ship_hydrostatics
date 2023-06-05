@@ -8,8 +8,8 @@ offset = np.loadtxt('s60_cb70.txt', dtype=float)
 row, col = offset.shape
 
 pn = np.array([0, 0.5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9.5, 10]) * length/10
-wl0 = np.array([0, 0.3, 1, 2, 3, 4, 4*1.325, 4*1.65]) * draft/4 #PRU
-wl = np.array([0, 0.5, 1, 2, 3, 4, 4*1.325, 4*1.65]) * draft/4 #PRU
+wl0 = np.array([0, 0.3, 1, 2, 3, 4, 4*1.325, 4*1.65]) * draft / 4 #PRU
+wl = np.array([0, 0.5, 1, 2, 3, 4, 4*1.325, 4*1.65]) * draft / 4 #PRU
 # wl0 = np.array([0, 0.3, 1, 2, 3, 4, 5, 6]) * draft/4  #YTU
 # wl = np.array([0, 0.5, 1, 2, 3, 4, 5, 6]) * draft/4  #YTU
 # wl0 = np.array([0, 0.3, 1, 2, 3, 4, 4*1.35, 4*1.70]) * draft/4 #ITU
